@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:id="@+id/flag_image"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/ic_launcher" />
+
+
+        <Button
+            android:id="@+id/pickCountry"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="145dp"
+            android:text="Pick Country" />
+
+        <TextView
+            android:id="@+id/countryNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="50dp"
+            android:text="Country"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/countryCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="182dp"
+            android:layout_marginTop="130dp"
+            android:text="Country code"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/countryDialCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="182dp"
+            android:layout_marginTop="150dp"
+            android:text="Country Dial Code"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/countryCurrencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="182dp"
+            android:layout_marginTop="170dp"
+            android:text="Corrency"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/pickState"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Pick State"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="20dp"/>
+
+
+        <TextView
+            android:id="@+id/state_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:text="State"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginStart="180dp"
+            />
+
+        <Button
+            android:id="@+id/pick_city"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="20dp"
+            android:text="Pick City"
+            />
+
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginStart="180dp"
+            android:text="City"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
