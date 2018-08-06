@@ -410,4 +410,4 @@ public void getCityJson() throws JSONException {
 
 Thanks to Mukesh Solanki, mukeshsolanki I get idea from his country picker from this link:https://github.com/mukeshsolanki/country-picker-android, and I use his country Object in my library . Also thanks to Rohit Kumar, hiiamrohit because I use his JSON data for States and Cities from this link: http://www.iamrohit.in/countries-states-and-cities-database-of-world-in-mysql/
 
-Also for some Countries I don't have list of States and Cities, so when State and City list is empty application break , but this is just for 10 Countries I think and I workink more on that.
+Also for some Countries I don't have list of States and Cities, so when State and City list is empty application break , but this is just for 10 Countries I think and I working on that.
